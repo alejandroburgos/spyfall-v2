@@ -86,7 +86,7 @@ const InGame = ({ t, i18n, gameState, socket }) => {
 
 			<AccessCode code={gameState.code} />
 
-			<HideableContainer title={"Your Role"} initialHidden={false}>
+			<HideableContainer title={"Tu Rol"} initialHidden={false}>
 				<div className="status-container-content">
 					{isSpy && (
 						<div className="player-status player-status-spy">
@@ -137,7 +137,7 @@ const InGame = ({ t, i18n, gameState, socket }) => {
 								dangerouslySetInnerHTML={{ __html: t("ui.first") }}
 							></div>
 						)}
-						{!player.connected && <i> (Disconnected)</i>}
+						{!player.connected && <i> (Se fue...)</i>}
 					</StrikeableBox>
 				))}
 			</ul>
@@ -180,7 +180,7 @@ const InGame = ({ t, i18n, gameState, socket }) => {
 
 const popup = (yesText, noText, onYes) =>
 	Swal.fire({
-		title: "Are you sure?",
+		title: "¿Estás seguro?",
 		icon: "warning",
 		showCancelButton: true,
 		confirmButtonText: yesText,

@@ -59,7 +59,7 @@ const Lobby = ({ t, gameState, socket }) => {
 				))}
 			</ol>
 			<br />
-			<HideableContainer title={"Game Settings"} initialHidden={true}>
+			<HideableContainer title={"Abrir opciones"} initialHidden={true}>
 				<Settings gameState={gameState} socket={socket} />
 			</HideableContainer>
 

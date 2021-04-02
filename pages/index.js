@@ -61,9 +61,6 @@ const Home = ({ t, i18n, loading }) => {
 			{(loading || newGameLoading) && <Loading />}
 			{!loading && (
 				<>
-					<p>
-					😎 Pasadlo bien en esta modificación de Spyfall 😎
-					</p>
 					<div className="button-container">
 						<Link href="/join">
 							<button id="btn-join-game" className="btn-large">

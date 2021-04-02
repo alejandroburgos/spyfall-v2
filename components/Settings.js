@@ -49,7 +49,7 @@ const TimeLimit = ({ onSetMinutes, serverMinutes }) => {
 
 	return (
 		<div>
-			<label>Time Limit:</label>
+			<label>Límite de tiempo:</label>
 			<div style={{ margin: "-.5em 0 -1em" }}>
 				<button
 					className="btn-small"
@@ -59,7 +59,7 @@ const TimeLimit = ({ onSetMinutes, serverMinutes }) => {
 					-
 				</button>
 				<span>
-					{minutes} minute{minutes !== 1 ? "s" : ""}
+					{minutes} minuto{minutes !== 1 ? "s" : ""}
 				</span>
 
 				<button
