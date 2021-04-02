@@ -40,7 +40,7 @@ const Game = ({ t, loading }) => {
 			}
 		});
 		socket.on("invalid", () => router.push("/join?invalid=" + gameCode));
-		socket.on("badName", () => Swal.fire("Name already in use"));
+		socket.on("badName", () => Swal.fire("Nombre en uso"));
 		socket.on("lockedWarning", (minutes) =>
 			Swal.fire(lockedMessage(minutes)).then(() => router.push("/"))
 		);
