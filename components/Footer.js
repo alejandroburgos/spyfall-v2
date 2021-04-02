@@ -2,13 +2,13 @@ import React from "react";
 
 const Footer = () => (
 	<div className="footer">
-		Spyfall by{" "}
+		Spyfall por{" "}
 		<a
 			href="https://www.tannerkrewson.com/"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			Tanner Krewson
+			Sawer
 		</a>
 		<br />
 		<a
@@ -16,7 +16,7 @@ const Footer = () => (
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			View on GitHub
+			Ver en Github
 		</a>
 	</div>
 );

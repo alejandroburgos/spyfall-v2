@@ -33,7 +33,7 @@ const Lobby = ({ t, gameState, socket }) => {
 				{playerList.map((player, i) => (
 					<li key={i} className="player-box">
 						{player.name}
-						{!player.name && <i>Joining...</i>}
+						{!player.name && <i>Entrando...</i>}
 
 						{player.isMe && (
 							<a
@@ -42,7 +42,7 @@ const Lobby = ({ t, gameState, socket }) => {
 								data-player-id="{{ _id }}"
 								onClick={() => socket.emit("clearName")}
 							>
-								Edit name
+								Editar nombre
 							</a>
 						)}
 						{!player.isMe && (
@@ -52,7 +52,7 @@ const Lobby = ({ t, gameState, socket }) => {
 								data-player-id="{{ _id }}"
 								onClick={() => socket.emit("removePlayer", player.name)}
 							>
-								Remove player
+								Eliminar jugador
 							</a>
 						)}
 					</li>

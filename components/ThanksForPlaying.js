@@ -4,7 +4,7 @@ const ThanksForPlaying = () => (
 	<>
 		<div className="card">
 			<div className="text">
-				Thanks for playing Spyfall!
+				¡Gracias por jugar a Spyfall!
 				<br />
 				If you had fun, try my other game:
 			</div>

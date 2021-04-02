@@ -44,18 +44,18 @@ const BuyMe = () => (
 		<a
 			className="bmc-button"
 			target="_blank"
-			href="https://www.buymeacoffee.com/tannerkrewson"
+			href="https://www.paypal.com/biz/fund?id=CX2U4GQ57973S"
 			rel="noopener noreferrer"
 		>
 			<span
-				src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
-				alt="Buy me a taco"
+				src="https://www.flaticon.com/svg/vstatic/svg/590/590836.svg?token=exp=1617399793~hmac=fa2a532d86df5a080a5e9ed1d83c0991"
+				alt="Invítame a un café"
 				className="taco"
 			>
-				🌮
+				☕
 			</span>
 			<span style={{ marginLeft: "15px", fontWeight: "bold" }}>
-				Buy me a taco
+				Invítame a un café
 			</span>
 		</a>
 	</>

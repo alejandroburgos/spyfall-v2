@@ -55,11 +55,7 @@ const AddAppButton = () => {
 
 	return (
 		<>
-			{!isAlreadyPWA && (
-				<button className="btn-small btn-vertical" onClick={handleAddApp}>
-					{isLoading ? "Loading..." : "Add Spyfall as App"}
-				</button>
-			)}
+
 			{showiOS && (
 				<PWAPrompt
 					debug={true}

@@ -78,8 +78,8 @@ const InGame = ({ t, i18n, gameState, socket }) => {
 						{minutesLeft}:{secondsLeft}
 					</h4>
 					<div>
-						{timePaused && <div className="red-text">Game paused</div>}
-						{showTapToPause && <div className="subtitle">Tap to pause</div>}
+						{timePaused && <div className="red-text">Juego pausado</div>}
+						{showTapToPause && <div className="subtitle">Toca para pausar</div>}
 					</div>
 				</div>
 			)}
@@ -119,10 +119,10 @@ const InGame = ({ t, i18n, gameState, socket }) => {
 			</HideableContainer>
 
 			{me.isFirst && (
-				<div className="red-text">You will ask the first question.</div>
+				<div className="red-text">¿Nervioso?</div>
 			)}
 			{!me.isFirst && (
-				<div>The first question will be asked by {firstPlayer.name}.</div>
+				<div>¡A preguntar!</div>
 			)}
 
 			<h5>{t("ui.players")}</h5>
@@ -130,7 +130,7 @@ const InGame = ({ t, i18n, gameState, socket }) => {
 				{players.map((player, i) => (
 					<StrikeableBox key={i}>
 						{player.name && player.name}
-						{!player.name && <i>Joining...</i>}
+						{!player.name && <i>Entrando....</i>}
 						{player.isFirst && (
 							<div
 								className="first-player-indicator"

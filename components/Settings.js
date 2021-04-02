@@ -98,7 +98,7 @@ const LocationPack = ({
 
 	return (
 		<div>
-			<label htmlFor="location-pack">Location Pack:</label>
+			<label htmlFor="location-pack">Pack de ubicaciones:</label>
 			<select
 				className="u-full-width"
 				id="location-pack"
@@ -136,7 +136,7 @@ const IncludeAllSpy = ({ onSetIncludeAllSpy, serverIncludeAllSpy }) => {
 				checked={includeAllSpy}
 			/>
 			<span className="label-body">
-				Enable ~2% chance all players are spies
+			Probabilidad de que el 2% sean todos espías 	
 			</span>
 		</label>
 	);

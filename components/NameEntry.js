@@ -44,7 +44,7 @@ const NameEntry = ({ t, onNameEntry, gameCode, socket }) => {
 				<input
 					type="text"
 					id="player-name"
-					placeholder="Use your real name!"
+					placeholder="¡Usa tu nombre real!"
 					value={name}
 					onChange={handleNameChange}
 					autoFocus

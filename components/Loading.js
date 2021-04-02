@@ -1,3 +1,3 @@
-const Loading = () => <div style={{ marginTop: "3em" }}>Loading...</div>;
+const Loading = () => <div style={{ marginTop: "3em" }}>Cargando, ten paciencia amigo...</div>;
 
 export default Loading;

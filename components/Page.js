@@ -59,7 +59,7 @@ const Page = ({ children, onThemeToggle, darkModeActive }) => {
 						onClick={onThemeToggle}
 						style={{ marginBottom: "1.5em" }}
 					>
-						Switch to {darkModeActive ? "Light" : "Dark"} Mode
+						¿Te duelen los ojos? Cambia al modo {darkModeActive ? "Claro" : "Oscuro"}
 					</button>
 					<LanguageSelector />
 					<Footer />

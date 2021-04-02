@@ -54,7 +54,7 @@ const Home = ({ t, i18n, loading }) => {
 				}}
 			>
 				<h3>{t("ui.welcome to spyfall")}</h3>
-				<div className="subtitle formerly">(formerly Meteor/Crabhat)</div>
+				<div className="subtitle formerly">juego modificado por SAWER</div>
 			</div>
 			<hr />
 
@@ -62,7 +62,7 @@ const Home = ({ t, i18n, loading }) => {
 			{!loading && (
 				<>
 					<p>
-						The "no game was found" issue is fixed now! 🎉 Sorry about that 😭
+					😎 Pasadlo bien en esta modificación de Spyfall 😎
 					</p>
 					<div className="button-container">
 						<Link href="/join">
@@ -77,11 +77,11 @@ const Home = ({ t, i18n, loading }) => {
 					<div className="button-container-vertical">
 						<AddAppButton />
 						<Link href="/how-to-play">
-							<button className="btn-small btn-vertical">How to Play</button>
+							<button className="btn-small btn-vertical">¿Cómo se juega?</button>
 						</Link>
 						<Link href="/more-games">
 							<button className="btn-small btn-vertical">
-								Games Like Spyfall
+								Próximos juegos
 							</button>
 						</Link>
 						<a
@@ -90,16 +90,15 @@ const Home = ({ t, i18n, loading }) => {
 							rel="noopener noreferrer"
 							style={{ width: "100%" }}
 						>
-							<button className="btn-small btn-vertical">Crabhat?</button>
 						</a>
 						<a
-							href="https://docs.google.com/forms/d/e/1FAIpQLSe0lIL4ZYxyKDNHqv25VkLqOg7tk2VhOcOA-yDAuYxKFx6kyw/viewform?usp=sf_link"
+							href="https://forms.gle/D5pG8MVu8Au8qD3c7"
 							target="_blank"
 							rel="noopener noreferrer"
 							style={{ width: "100%" }}
 						>
 							<button className="btn-small btn-vertical">
-								Submit Feedback
+							Enviar comentarios
 							</button>
 						</a>
 						<div style={{ marginTop: "1em" }}>
