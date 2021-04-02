@@ -1,6 +1,6 @@
 # Spyfall
 
-**Play now: [spyfall.tannerkrewson.com](https://spyfall.tannerkrewson.com/)**
+**Play now: [https://spyfall-dev.vercel.app/](https://spyfall-dev.vercel.app/)**
 
 (formerly spyfall.meteor.com and spyfall.crabhat.com)
 
